@@ -1,0 +1,87 @@
+.main {
+    width: 100% !important;
+    height: 90vh !important;
+}
+
+form {
+    width: 25%;
+}
+
+form .btn {
+    width: 100%;
+}
+
+form input {
+    height: calc(var(--base-unit) * 3);
+    line-height: calc(var(--base-unit) * 3);
+    padding-left: var(--base-unit) !important;
+    border-radius: 40px !important;
+}
+
+.logo p {
+    margin: calc(var(--base-unit) * 2) 0;
+}
+
+#userpw {
+    margin: calc(var(--base-unit) * 0.5) 0 calc(var(--base-unit) * 2);
+}
+
+.hidden_label {
+    display: none;
+}
+
+button[type='submit'] {
+    height: calc(var(--base-unit) * 3);
+    border-radius: 40px;
+}
+
+/* popup */
+.popup{
+    position: fixed;
+    top: 75px;
+    left: 80px;
+    z-index: 20;
+    margin: 0;
+    padding: 25px;
+    border: 3px solid #2ac1bc;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .3);
+}
+.popup h3{
+    padding: 16px 0;
+    font-size: 27px;
+    font-weight: 600;
+}
+.popup h4{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.popup h5{
+    padding-top: 17px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.popup p{
+    font-weight: 500;
+    line-height: 27px;
+}
+.popup label{
+    margin-right: 5px;
+}
+.popup button{
+    float: right;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 13%;
+}
+.popup hr{
+    height: 2px;
+    margin: 23px 0;
+    border: 0;
+    background: #2ac1bc;
+}
+.popup hr:last-child{
+    margin: 17px 0 21px 0;
+}

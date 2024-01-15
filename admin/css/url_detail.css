@@ -1,0 +1,21 @@
+.url_detail{
+  padding: 35px 15px 20px;
+}
+.url_step{
+  font-size: 21px;
+}
+.class_sm_mt{
+  margin-bottom: 15px;
+}
+.class_lg_mt{
+  margin-bottom: 60px;
+}
+.class_lg_pd{
+  padding-bottom: 60px;
+}
+.url_step span{
+  margin-right: 10px
+}
+.url_step img{
+  margin-left: 480px
+}
